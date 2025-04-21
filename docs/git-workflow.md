@@ -65,14 +65,15 @@ git checkout your-branch
 git merge main
 ```
 
-⚠️ Conflict Handling
+## ⚠️ Conflict Handling
 If you see merge conflicts, don’t panic.
 
 Ask for help or ping someone with experience before resolving it.
 
 Never commit conflict markers (like <<<< HEAD).
 
-📦 Clean-Up
+
+## 📦 Clean-Up
 After merging your pull request:
 
 ```bash
