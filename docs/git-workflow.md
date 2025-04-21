@@ -53,3 +53,32 @@ Before starting a new branch:
 git checkout main
 git pull origin main
 git checkout -b feature/your-feature
+```
+
+
+## If your branch gets outdated:
+
+```bash
+git checkout main
+git pull origin main
+git checkout your-branch
+git merge main
+```
+
+⚠️ Conflict Handling
+If you see merge conflicts, don’t panic.
+
+Ask for help or ping someone with experience before resolving it.
+
+Never commit conflict markers (like <<<< HEAD).
+
+📦 Clean-Up
+After merging your pull request:
+
+```bash
+git branch -d your-branch
+git push origin --delete your-branch
+```
+Let’s keep the repo clean!
+
+Happy coding! 💚
